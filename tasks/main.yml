@@ -1,0 +1,7 @@
+---
+- name: Install tlp
+  become: true
+  apt:
+    name: tlp
+    state: present
+

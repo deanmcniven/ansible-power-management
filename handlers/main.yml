@@ -1,0 +1,8 @@
+---
+- name: Start TLP Daemon
+  become: true
+  systemd:
+    name: tlp
+    state: started
+    enabled: yes
+
